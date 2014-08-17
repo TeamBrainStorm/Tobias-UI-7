@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hide" android:icon="@drawable/ic_menu_view"></item>
+    <item android:id="@+id/uninstall" android:icon="@drawable/ic_menu_delete"></item>
+    <item android:id="@+id/edit" android:icon="@drawable/ic_menu_edit"></item>
+    
+    <item android:id="@+id/select_all" android:title="@string/select_all" android:icon="@drawable/ic_menu_agenda"></item>
+    <item android:id="@+id/add_to_folder" android:icon="@drawable/ic_menu_archive"></item>
+<!--    <item android:id="@+id/new_folder" android:icon="@drawable/ic_menu_add"></item>-->
+</menu>

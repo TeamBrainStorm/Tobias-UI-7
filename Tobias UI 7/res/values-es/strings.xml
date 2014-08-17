@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Actualizar</string>
+    <string name="settings">Opciones</string>
+    <string name="manage_apps">Admin. aplicaciones</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Color sólido</item>
+        <item name="1">Imagen</item>
+        <item name="2">Fondo de pantalla</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Lista</item>
+        <item name="1">Cuadrícula</item>
+        <item name="2">Horizontal paginado</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Fondo...</string>
+        <string name="pref_bg_color">Color de fondo</string>
+        <string name="pref_bg_image">Imagen de fondo</string>
+        <string name="pref_bg_alpha">Transparencia del fondo</string>
+        <string name="pref_low_quality">Fondo de baja calidad</string>
+        <string name="pref_low_quality_summary">Desplazamiento más suave</string>
+        <string name="pref_font">Fuente del texto</string>       
+        <string name="pref_font_color">Color del texto</string>
+        <string name="pref_font_size">Tamaño del texto</string>
+        <string name="pref_font_size_title">Elige el tamaño deseado</string>
+        <string name="pref_icon_size">Tamaño de los iconos</string>
+        <string name="pref_icon_size_title">Elige el tamaño deseado</string>
+        <string name="button_OK">Aceptar</string>
+        <string name="button_cancel">Cancelar</string>
+        <string name="button_restore">Restaurar</string>
+        <string name="pref_show_home">Mostrar botón de Inicio</string>
+        <string name="pref_fullscreen">Pantalla completa</string>
+        <string name="pref_restore_default">Restaurar ajustes por defecto</string>
+        <string name="restore_default_confirmation">¿Está seguro de que quiere restaurar todos los ajustes a su valor por defecto? Incluyendo apps ocultas y editadas.</string>
+        <string name="restore_default_title">Aviso</string>
+        <string name="pref_list_style">Estilo</string>
+        <string name="pref_row_spacing">Espaciado entre filas</string>
+        <string name="pref_row_spacing_title">Elige el espacio deseado</string>
+        <string name="pref_num_columns">Número de columnas</string>
+        <string name="pref_num_columns_title">Elige el número deseado</string>
+        <string name="pref_num_rows">Número de filas</string>
+        <string name="pref_num_rows_title">Elige el número deseado</string>
+        <string name="coming_soon">Próximamente...</string>
+        <string name="portrait">Vertical</string>
+        <string name="landscape">Horizontal</string>
+        <string-array name="app_actions">
+            <item>Ocultar</item>
+            <item>Detalles</item>
+            <item>Desinstalar</item>
+            <item>Acceso directo</item>
+            <item>Editar</item>
+            <item>Añadir a carpeta</item>
+            <item>Nueva carpeta</item>
+            <item>Eliminar carpeta</item>
+            <item>Editar carpeta</item>
+            <item>Eliminar de la carpeta</item>
+            <item>Cambiar de carpeta</item>
+        </string-array>
+        <string name="pref_home_position">Posicion del botón de Inicio</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Centrado</item>
+        <item name="1">Izquierda</item>
+        <item name="2">Derecha</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	<string name="pref_screen_orientation">Orientación de la pantalla</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Sensor</item>
+        <item name="1">Vertical</item>
+        <item name="2">Horizontal</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	<string name="pref_hidden_apps">Aplicaciones ocultas</string>
+    	<string name="unhide_confirmation">¿Desocultar aplicaciones seleccionadas?</string>
+    	<string name="unhide">Desocultar</string>
+    	<string name="select_all">Marcar todas</string>
+        <string name="no_hidden_apps">No hay ninguna aplicación oculta</string>
+        
+        <string name="pref_remember_position">Recordar posicion de la lista</string>
+        
+        <string name="pref_show_indicators">Mostrar indicadores de página</string>
+    	<string name="pref_autohide_indicators">Auto-ocultar indicadores</string>
+    	
+    	<string name="no_fonts">Copia tus fuentes a /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Orden</string>
+    	<string name="sortByName">Nombre (A-Z)</string>
+    	<string name="sortByDate">Última instalada</string>
+    	<string name="sortByDate2">Última instalada primero</string>
+    	<string name="sortByUses">Más usada</string>
+    	
+    	<string name="check_version">Haz clic para buscar una nueva version</string>
+    	<string name="no_new_version">No hay ninguna versión nueva disponible</string>
+    	<string name="new_version">Existe una nueva versión disponible ¿Descargar</string>
+    	
+    	<string name="pref_export">Exportar preferencias</string>
+    	<string name="pref_import">Restaurar preferencias</string>
+    	<string name="pref_export_summary">Incluye apps ocultas y editadas. Copia de seguridad en /sdcard/AppDrawer/</string>
+    	<string name="pref_import_summary">Desde copia de seguridad</string>
+    	<string name="exported">Preferencias y DB exportadas correctamente</string>
+    	<string name="imported">Preferencias restauradas correctamente</string>
+    	<string name="imported_DB">Base de datos restaurada correctamente</string>
+    	<string name="export_confirmation">Está seguro de que desea exportar sus preferencias? La copia anterior será eliminada.</string>
+    	<string name="import_confirmation">Está seguro de que desea importar las preferencias desde la copia de seguridad? La configuración actual será eliminada.</string>
+    	<string name="prefs_not_found">Copia de las preferencias no encontrada.</string>
+    	<string name="db_not_found">Copia de la BD no encontrada.</string>
+        
+        <string name="folder_name">Nombre carpeta</string>        
+        <string name="folder_save">Guardar</string>        
+        <string name="folder_discard">Descartar</string>        
+        
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:visibility="gone" 
+    android:layout_gravity="bottom" 
+    android:layout_width="match_parent" 
+    android:background="#000" 
+    android:layout_weight="1" 
+    android:orientation="vertical" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/folder_manager">
+    
+    <!-- BORDER -->
+    <View
+        android:background="@drawable/border"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+    />
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:id="@+id/titleBarFolder" 
+        android:layout_weight="1" 
+        android:layout_height="50dp">
+        <ImageView 
+            android:layout_width="45dp" 
+            android:id="@+id/iconFolder" 
+            android:layout_height="45dp" 
+            android:src="@drawable/pager_dot_selected" 
+            android:layout_gravity="center_vertical" 
+            android:paddingLeft="5dp" 
+        />
+        <TextView 
+            android:text="TextView" 
+            android:layout_gravity="center_vertical" 
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/titleFolder" 
+            android:textSize="25dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+        />
+        <TextView 
+            android:text="x"
+            android:layout_gravity="center_vertical" 
+            android:layout_height="wrap_content" 
+            android:layout_width="30dp" 
+            android:id="@+id/closeFolder" 
+            android:textSize="35dp"
+        />
+    </LinearLayout>
+    <HorizontalScrollView android:layout_weight="1" android:id="@+id/horizontalScrollView1" android:layout_height="105dp" android:background="#222" android:layout_width="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/folderSelectedApps" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingLeft="10dp">
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+</LinearLayout>

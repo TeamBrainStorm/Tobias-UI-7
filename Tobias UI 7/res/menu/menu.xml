@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/settings" android:title="@string/settings" android:icon="@drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/manage" android:title="@string/manage_apps" android:icon="@drawable/ic_menu_manage"></item>
+    <item android:id="@+id/hidden_apps" android:title="@string/pref_hidden_apps" android:icon="@drawable/ic_menu_view"></item>
+    <item android:id="@+id/refresh" android:title="@string/refresh" android:icon="@drawable/ic_menu_refresh"></item>
+    <item android:title="@string/multi" android:id="@+id/multi" android:icon="@drawable/ic_menu_mark"></item>
+
+</menu>

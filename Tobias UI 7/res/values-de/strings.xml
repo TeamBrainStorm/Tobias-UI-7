@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="settings">Einstellungen</string>
+    <string name="manage_apps">Anwendungen verwalten</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Farbe</item>
+        <item name="1">Bild</item>
+        <item name="2">Hintergrundbild</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Liste</item>
+        <item name="1">Klassisch</item>
+        <item name="2">Horizontale ausgelagert</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Drawer-Hintergrund</string>
+        <string name="pref_bg_color">Hintergrundfarbe</string>
+        <string name="pref_bg_image">Bild wählen</string>
+        <string name="pref_bg_alpha">Hintergrund Transparenz</string>
+        <string name="pref_low_quality">Niedrige Qualität Hintergrund</string>
+        <string name="pref_low_quality_summary">bessere Scrollen</string>
+        <string name="pref_font">Schriftart</string>
+        <string name="pref_font_color">Schriftfarbe</string>
+        <string name="pref_font_size">Schriftgröße</string>
+        <string name="pref_font_size_title">Schriftgröße wählen</string>
+        <string name="pref_icon_size">Symbolgröße</string>
+        <string name="pref_icon_size_title">Symbolgröße wählen</string>
+        <string name="button_OK">OK</string>
+        <string name="button_cancel">Abbrechen</string>
+        <string name="button_restore">Wiederherstellen</string>
+        <string name="pref_show_home">Home-Button anzeigen</string>
+        <string name="pref_fullscreen">Statusleiste ausblenden</string>
+        <string name="pref_restore_default">Einstellungen zurücksetzen</string>
+        <string name="restore_default_confirmation">Sind Sie sicher, dass alle Einstellungen auf ihre ursprünglichen Werte zurückgesetzt werden sollen?</string>
+        <string name="restore_default_title">Warnung</string>
+        <string name="pref_list_style">Drawer-Stil</string>
+        <string name="pref_row_spacing">Zeilenabstand</string>
+        <string name="pref_row_spacing_title">Zeilenabstand wählen</string>
+        <string name="pref_num_columns">Anzahl Spalten</string>
+        <string name="pref_num_columns_title">Spaltenzahl wählen</string>
+        <string name="pref_num_rows">Anzahl Zeilen</string>
+        <string name="pref_num_rows_title">Zeilenzahl wählen</string>
+        <string name="coming_soon">Coming soon...</string>
+        <string name="portrait">Hochformat</string>
+        <string name="landscape">Querformat</string>
+        <string-array name="app_actions">
+            <item>Verstecken</item>
+            <item>Details</item>
+            <item>Deinstallieren</item>
+            <item>Verknüpfung erstellen</item>
+            <item>Bearbeiten</item>
+            <item>Add to folder</item>
+            <item>New folder</item>
+        </string-array>
+        
+        <string name="pref_home_position">Position Home-Button</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Center</item>
+        <item name="1">Links</item>
+        <item name="2">Rechts</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_screen_orientation">Bildschirmausrichtung</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Sensor</item>
+        <item name="1">Vertikal</item>
+        <item name="2">Horizontalen</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_hidden_apps">Versteckten Anwendungen</string>
+    	<string name="unhide_confirmation">Unhide ausgewählte Anwendungen</string>
+    	<string name="unhide">Unhide</string>
+        <string name="no_hidden_apps">Es gibt keine versteckten Anwendung</string>
+        
+        <string name="pref_remember_position">erinnern Liste Position</string>
+        
+        <string name="pref_show_indicators">Zeige Seite Indikatoren</string>
+    	<string name="pref_autohide_indicators">Auto-hide Indikatoren</string>
+    	
+    	<string name="no_fonts">Legen Sie Ihre Schriften in /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Sort</string>
+    	<string name="sortByName">Name (A-Z)</string>
+    	<string name="sortByDate">Letzte installiert</string>
+    	<string name="sortByDate2">Zuletzt installiert erste</string>
+    	<string name="sortByUses">Am häufigsten verwendete</string>
+        
+        <string name="folder_name">Folder\'s name</string>
+    	
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:JakedUp="http://schemas.android.com/apk/res/com.d4a.tobias">
+            
+<!--                <JakedUp.AppDrawer.IconPreference android:title="@string/pref_look_and_feel" JakedUp:icon="@android:drawable/ic_menu_gallery">
+</JakedUp.AppDrawer.IconPreference>-->
+            <PreferenceScreen android:title="@string/pref_look_and_feel" android:widgetLayout="@layout/pref_icon_look_and_feel"
+            android:summary="Colors, backgrounds, style, etc.">
+
+        <ListPreference android:title="@string/pref_list_style" android:entries="@array/pref_list_style_entries" android:entryValues="@array/pref_list_style_values" android:key="pref_list_style"/>
+    
+    <CheckBoxPreference android:title="@string/pref_show_home" android:key="pref_show_home"></CheckBoxPreference>
+    <ListPreference android:title="@string/pref_home_position" android:key="pref_home_position" android:entries="@array/pref_home_position_entries" android:entryValues="@array/pref_home_position_values"></ListPreference>
+    <Preference android:title="@string/pref_row_spacing" android:key="pref_row_spacing"></Preference>
+        <Preference android:title="@string/pref_num_columns" android:key="pref_num_columns"></Preference>
+        <Preference android:title="@string/pref_num_rows" android:key="pref_num_rows"></Preference>
+        
+        <PreferenceScreen android:title="@string/pref_bg_type">
+        <ListPreference android:title="@string/pref_bg_type2" android:entries="@array/pref_bg_type_entries" android:entryValues="@array/pref_bg_type_values" android:key="pref_bg_type"/>
+        <Preference android:title="@string/pref_bg_color" android:key="pref_bg_color"></Preference>
+        <Preference android:title="@string/pref_bg_image" android:key="pref_bg_image"></Preference>
+        <Preference android:key="pref_bg_alpha" android:title="@string/pref_bg_alpha"></Preference>
+        <CheckBoxPreference android:key="pref_low_quality" android:summary="@string/pref_low_quality_summary" android:title="@string/pref_low_quality"></CheckBoxPreference>
+        </PreferenceScreen>
+        
+        <Preference android:title="@string/pref_font" android:key="pref_font"></Preference>
+        <Preference android:key="pref_font_color" android:title="@string/pref_font_color"></Preference>
+        <Preference android:key="pref_font_size" android:title="@string/pref_font_size"></Preference>
+        <Preference android:key="pref_icon_size" android:title="@string/pref_icon_size"></Preference>
+        
+    
+
+    
+        </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_behaviour" android:widgetLayout="@layout/pref_icon_behaviour"
+            android:summary="General settings like fullscreen mode or orientation.">
+        <CheckBoxPreference android:title="@string/pref_show_indicators" android:key="pref_show_indicators"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/pref_autohide_indicators" android:key="pref_autohide_indicators"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/pref_remember_position" android:key="pref_remember_position"></CheckBoxPreference>
+        
+    
+    <CheckBoxPreference android:title="@string/pref_fullscreen" android:key="pref_fullscreen"></CheckBoxPreference>
+    <ListPreference android:title="@string/pref_screen_orientation" android:entries="@array/pref_screen_orientation_entries" android:entryValues="@array/pref_screen_orientation_values" android:key="pref_screen_orientation"></ListPreference>
+    </PreferenceScreen>
+    
+    <PreferenceScreen android:title="@string/pref_backups" android:key="pref_backups" android:widgetLayout="@layout/pref_icon_backups"
+            android:summary="@string/pref_backups_summary">
+        <Preference android:key="pref_export" android:title="@string/pref_export" android:summary="@string/pref_export_summary"></Preference>
+        <PreferenceScreen android:key="pref_import" android:title="@string/pref_import"></PreferenceScreen>    
+    </PreferenceScreen>
+        
+         
+<!--    <PreferenceCategory>-->
+        <Preference android:key="pref_hidden_apps" android:title="@string/pref_hidden_apps"></Preference>
+        
+        <Preference android:title="@string/pref_restore_default" android:key="pref_restore_default"></Preference>
+<!--        <CheckBoxPreference android:summary="BETA" android:title="Auto-load apps at boot" android:key="pref_service"></CheckBoxPreference>-->
+        <Preference android:key="pref_app_version" android:summary="@string/check_version"></Preference>
+  
+<!--    </PreferenceCategory>-->
+        
+</PreferenceScreen>

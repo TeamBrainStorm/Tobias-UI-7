@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:id="@+id/linearLayoutFontChooser" android:paddingLeft="10dp" android:paddingRight="10dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_font_size" android:id="@+id/seekbarTextView"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <Button android:text="-" android:id="@+id/button_less" android:layout_height="40dp" android:layout_width="40dp"></Button>
+        <SeekBar android:layout_weight="1" android:layout_width="match_parent" android:paddingBottom="20dp" android:id="@+id/seekBarSize" android:layout_height="wrap_content"></SeekBar>
+        <Button android:text="+" android:id="@+id/button_more" android:layout_height="40dp" android:layout_width="40dp"></Button>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/pref_font_size" android:id="@+id/seekbarTextView2"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <Button android:text="-" android:id="@+id/button_less2" android:layout_height="40dp" android:layout_width="40dp"></Button>
+        <SeekBar android:layout_weight="1" android:layout_width="match_parent" android:paddingBottom="20dp" android:id="@+id/seekBarSize2" android:layout_height="wrap_content"></SeekBar>
+        <Button android:text="+" android:id="@+id/button_more2" android:layout_height="40dp" android:layout_width="40dp"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/row" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent">
+    <FrameLayout android:id="@+id/frameLayout1" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent">
+            <ImageView android:src="@drawable/icon" android:adjustViewBounds="true" android:layout_marginLeft="5dp" android:layout_height="wrap_content" android:id="@+id/appIcon" android:maxWidth="50dip" android:layout_marginRight="5dp" android:maxHeight="50dip" android:layout_gravity="center" android:layout_width="wrap_content"></ImageView>
+            <TextView android:lines="2" android:layout_marginLeft="5dp" android:id="@+id/appName" android:layout_marginRight="5dp" android:gravity="center_horizontal" android:text="Application's name" android:layout_width="match_parent" android:layout_gravity="center_horizontal" android:maxLines="2" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <CheckBox android:layout_width="wrap_content" android:focusableInTouchMode="false" android:clickable="false" android:focusable="false" android:id="@+id/appCheck" android:button="@drawable/btn_check" android:layout_height="wrap_content" android:layout_gravity="right|center_vertical"></CheckBox>
+    </FrameLayout>
+    	
+    
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/long_click_menu" 
+    android:layout_width="match_parent" 
+    android:background="#000" 
+    android:layout_weight="1" 
+    android:layout_gravity="top" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+    <TextView 
+        android:layout_width="match_parent" 
+        android:layout_weight="1" 
+        android:maxLines="1" 
+        android:ellipsize="end" 
+        android:id="@+id/long_click_title" 
+        android:text="" 
+        android:layout_height="50dp" 
+        android:textSize="30dp" 
+        android:layout_gravity="center_vertical|center_horizontal|center" 
+        android:gravity="center_vertical|center_horizontal|center"
+    />   
+    <LinearLayout 
+        android:id="@+id/long_click_icons" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:paddingBottom="5dp">
+        <ImageView 
+            android:id="@+id/hide_drag" 
+            android:layout_weight="1" 
+            android:src="@+drawable/hide" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+        />
+        <ImageView 
+            android:id="@+id/details_drag" 
+            android:layout_weight="1" 
+            android:src="@+drawable/details" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+        />
+<!--        <ImageView android:id="@+id/uninstall_drag" android:layout_weight="1" android:src="@android:drawable/ic_menu_delete" android:layout_width="0dp" android:layout_height="wrap_content"></ImageView>-->
+        <ImageView 
+            android:id="@+id/shortcut_drag" 
+            android:layout_weight="1" 
+            android:src="@+drawable/shortcut" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+        />
+        <ImageView 
+            android:id="@+id/edit_drag" 
+            android:layout_weight="1" 
+            android:src="@+drawable/edit" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    
+    <!-- BORDER -->
+    <View
+        android:background="@drawable/border"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+    />
+
+</LinearLayout>

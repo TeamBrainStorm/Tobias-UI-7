@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="settings">Impostazioni</string>
+    <string name="manage_apps">Gestisci applicazioni</string>
+    <string name="multi">Selezione multipla</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Colore</item>
+        <item name="1">Immagine</item>
+        <item name="2">Wallpaper</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Lista</item>
+        <item name="1">Griglia</item>
+        <item name="2">Allineati orizzontalmente</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Sfondo...</string>
+        <string name="pref_bg_color">Colore dello sfondo</string>
+        <string name="pref_bg_image">Immagine di sfondo</string>
+        <string name="pref_bg_alpha">Trasparenza dello sfondo</string>
+        <string name="pref_low_quality">Sfondo a bassa qualità</string>
+        <string name="pref_low_quality_summary">Scrolling migliorato</string>
+        <string name="pref_font">Tipo di font</string>
+        <string name="pref_font_color">Colore del font</string>
+        <string name="pref_font_size">Dimensione del font</string>
+        <string name="pref_font_size_title">Scegliere la dimensione del font</string>
+        <string name="pref_icon_size">Dimensione delle icone</string>
+        <string name="pref_icon_size_title">Scegli la dimensione delle icone</string>
+        <string name="button_OK">OK</string>
+        <string name="button_cancel">Annulla</string>
+        <string name="button_restore">Ripristina</string>
+        <string name="pref_show_home">Mostra il pulsante per tornare alla home</string>
+        <string name="pref_fullscreen">Fullscreen (Nasconde la status bar)</string>
+        <string name="pref_restore_default">Ripristina valori di default</string>
+        <string name="restore_default_confirmation">Sicuro di voler ripristinare i valori di default? (App nascoste e bloccate incluse!) </string>
+        <string name="restore_default_title">Attenzione</string>
+        <string name="pref_list_style">Stile</string>
+        <string name="pref_row_spacing">Spaziatura tra le righe</string>
+        <string name="pref_row_spacing_title">Scegli la dimensione della spaziatura tra le righe</string>
+        <string name="pref_num_columns">Numero di colonne</string>
+        <string name="pref_num_columns_title">Scegli il numero di colonne</string>
+        <string name="pref_num_rows">Numero di righe</string>
+        <string name="pref_num_rows_title">Scegli il numero di righe</string>
+        <string name="coming_soon">A breve...</string>
+        <string name="portrait">Portrait</string>
+        <string name="landscape">Landscape</string>
+        <string-array name="app_actions">
+            <item>Nascondi</item>
+            <item>Dettagli</item>
+            <item>Disinstalla</item>
+            <item>Crea scorciatoia</item>
+            <item>Modifica</item>
+            <item>Add to folder</item>
+            <item>New folder</item>
+        </string-array>
+        
+        <string name="pref_home_position">Posizione del tasto home</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Centrata</item>
+        <item name="1">A sinistra</item>
+        <item name="2">A destra</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_screen_orientation">Orientamento dello schermo</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Sensore</item>
+        <item name="1">Portrait</item>
+        <item name="2">Landscape</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_hidden_apps">Applicazioni nascoste</string>
+    	<string name="unhide_confirmation">Svelare le applicazioni selezionate</string>
+    	<string name="unhide">Svela</string>
+    	<string name="select_all">Seleziona tutto</string>
+        <string name="no_hidden_apps">Non ci sono applicazioni nascoste</string>
+    	
+    	<string name="pref_remember_position">Ricorda la posizione della lista</string>
+    	
+    	<string name="pref_show_indicators">Mostra indicatori di pagina</string>
+    	<string name="pref_autohide_indicators">Nascondi automaticamente gli indicatori</string>
+    	
+    	<string name="no_fonts">Metti i tuoi fonts in /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Ordina</string>
+    	<string name="sortByName">Per nome (A-Z)</string>
+    	<string name="sortByDate">Installato per ultimo</string>
+    	<string name="sortByDate2">Installazioni recenti per prime</string>
+    	<string name="sortByUses">Più usate</string>
+    	
+    	<string name="check_version">Clicca per controllo delle nuove versioni</string>
+    	<string name="no_new_version">Nessuna nuova versione disponibile</string>
+    	<string name="new_version">Nuova versione disponibile, scaricala</string>
+    	
+    	<string name="pref_export">Esporta le preferenze</string>
+    	<string name="pref_import">Ripristina le preferenze</string>
+    	<string name="pref_export_summary">Include le applicazioni nascoste e modificate. Il back viene salvato in /sdcard/AppDrawer/</string>
+    	<string name="pref_import_summary">Dal backup</string>
+    	<string name="exported">Preferenze e DB esportati con successo</string>
+    	<string name="imported">Preferenze ripristinitate</string>
+    	<string name="imported_DB">Database ripristinato</string>
+    	<string name="export_confirmation">Sicuro di voler esportare le preferenze? Questa scelta cancella i vecchi backup.</string>
+    	<string name="import_confirmation">Sicuro di voler importare le preferenze? Questo scelta cancella le preferenze attuali.</string>
+    	<string name="prefs_not_found">Backup delle preferenze non trovato</string>
+    	<string name="db_not_found">Backup del DB non trovato</string>
+        
+        <string name="folder_name">Folder\'s name</string>
+    	
+</resources>

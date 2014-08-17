@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="manage_apps">Διαχείριση εφαρμογών</string>
+    <string name="multi">Πολύ-επιλογή</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Συμπαγές χρώμα</item>
+        <item name="1">Εικόνα</item>
+        <item name="2">Ταπετσαρία</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Λίστα</item>
+        <item name="1">Πλέγμα</item>
+        <item name="2">Οριζόντια σελιδοποίηση</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Φόντο...</string>
+        <string name="pref_bg_color">Χρώμα φόντου</string>
+        <string name="pref_bg_image">Εικόνα φόντου</string>
+        <string name="pref_bg_alpha">Διαφάνεια φόντου</string>
+        <string name="pref_low_quality">Φόντο χαμηλής ποιότητας</string>
+        <string name="pref_low_quality_summary">Καλύτερη κύληση</string>
+        <string name="pref_font">Τύπος γραμματοσειράς</string>
+        <string name="pref_font_color">Χρώμα γραμματοσειράς</string>
+        <string name="pref_font_size">Μέγεθος γραμματοσειράς</string>
+        <string name="pref_font_size_title">Επιλογή επιθυμητού μεγέθους γραμματοσειράς</string>
+        <string name="pref_icon_size">Μέγεθος εικονιδίου</string>
+        <string name="pref_icon_size_title">Επιλογή επιθυμητού μεγέθους εικονιδίου</string>
+        <string name="button_OK">OK</string>
+        <string name="button_cancel">Άκυρο</string>
+        <string name="button_restore">Επαναφορά</string>
+        <string name="pref_show_home">Προβολή κουμπιού "Πισω στην ΑρχΟθόνη"</string>
+        <string name="pref_fullscreen">ΟλοκλΟθονη (Κρύβη την μπάρα κατάστασης)</string>
+        <string name="pref_restore_default">Επαναφορά στις προεπιλεγμένες ρυθμίσεις</string>
+        <string name="restore_default_confirmation">Θέλετε σίγουρα να επαναφέρετε όλες τις προτιμήσεις στην προεπιλεγμένη τιμή τους? Συμπεριλαμβάνει κρυφές και επεξεργασμένες εφαρμογές. </string>
+        <string name="restore_default_title">Προειδοποίηση</string>
+        <string name="pref_list_style">Στυλ</string>
+        <string name="pref_row_spacing">Διάκενο γραμμής</string>
+        <string name="pref_row_spacing_title">Επιλογη επιθυμητού διαστήματος μεταξύ γραμμών</string>
+        <string name="pref_num_columns">Αριθμός στηλών</string>
+        <string name="pref_num_columns_title">Επιλέξτε τον επιθυμητό αριθμό στηλών</string>
+    <string name="pref_num_rows">Αριθμός γραμμών</string>
+    <string name="pref_num_rows_title">Επιλέξτε τον επιθυμητό αριθμό γραμμών</string>
+        <string name="coming_soon">Προσεχώς...</string>
+        <string name="portrait">Πορτραίτο</string>
+        <string name="landscape">Τοπίο</string>
+        <string-array name="app_actions">
+            <item>Απόκρυψη</item>
+            <item>Λεπτομέρειες</item>
+            <item>Απεγκατάσταση</item>
+            <item>Δημιουργία συντόμευσης</item>
+            <item>Επεξεργασία</item>
+            <item>Add to folder</item>
+            <item>New folder</item>
+        </string-array>
+        
+        <string name="pref_home_position">Θέση κουμπιού ΑρχΟθόνης</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Κέντρο</item>
+        <item name="1">Αριστερά</item>
+        <item name="2">Δεξιά</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_screen_orientation">Προσανατολισμός οθόνης</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Σένσορας</item>
+        <item name="1">Πορτραίτο</item>
+        <item name="2">Τοπίο</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+        <string name="pref_hidden_apps">Κρυφές εφαρμογές</string>
+        <string name="unhide_confirmation">Επανεμφάνιση?</string>
+    	<string name="unhide">Επανεμφάνιση</string>
+    	<string name="select_all">Επιλογή όλων</string>
+        <string name="no_hidden_apps">Δεν υπάρχουν κρυφές εφαρμογές</string>
+    	
+    	<string name="pref_remember_position">Ενθύμιση θέσης λίστας</string>
+    	
+    	<string name="pref_show_indicators">Προβολή δεικτών σελίδας</string>
+    	<string name="pref_autohide_indicators">Αυτο-απόκρυψη δεικτών</string>
+    	
+    	<string name="no_fonts">Βάλτε τις γραμματοσειρές σας στο /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Ταξινόμηση</string>
+    	<string name="sortByName">Όνομα (A-Ω)</string>
+    	<string name="sortByDate">Πιο πρόσφατα εγκατεστημένες</string>
+    	<string name="sortByDate2">Προσφατα εγκατεστημένες πρώτα</string>
+    	<string name="sortByUses">Με πιο συχνή χρήση</string>
+    	
+    	<string name="check_version">Κλικ για έλεγχο ύπαρξης νέας έκδοσης</string>
+    	<string name="no_new_version">Δεν υπάρχει καμία νέα έκδοση διαθέσιμη</string>
+    	<string name="new_version">Μια νέα έκδοση είναι διαθέσιμη, λήψη</string>
+    	
+    	<string name="pref_export">Εξαγωγή προτιμήσεων</string>
+    	<string name="pref_import">Επαναφορά προτιμήσεων</string>
+    	<string name="pref_export_summary">Περιλαμβάνει κρυφές και επεξεργασμένες εφαρμογές. ΑντΑσφαλείας σε /sdcard/AppDrawer/</string>
+    	<string name="pref_import_summary">Από ΑντΑσφαλείας</string>
+    	<string name="imported">Επιτυχής επαναφορά προτιμήσεων</string>
+    	
+    	<string name="exported">Επιτυχής εξαγωγή προτιμήσεων και ΒΔ </string>
+
+<string name="imported_DB">Επιτυχής επαναφορά βάσης δεδομένων</string>
+<string name="export_confirmation">Θέλετε σίγουρα να γίνει εξαγωγή των προτιμήσεών σας? Παλαιότερα αντίγραφα ασφαλείας θα διαγραφούν.</string>
+<string name="import_confirmation">Θέλετε σίγουρα να γίνει εισαγωγή των προτιμήσεων σας από το αντίγραφο ασφαλείας? Οι τρέχουσες ρυθμίσεις θα διαγραφούν.</string>
+<string name="prefs_not_found">Δε βρέθηκε αντίγραφο ασφαλείας των προτιμήσεων</string>
+<string name="db_not_found">Δε βρέθηκε αντίγραφο ασφαλείας της βάσης δεδομένων</string>
+
+        <string name="folder_name">Folder\'s name</string>
+
+    	
+</resources>

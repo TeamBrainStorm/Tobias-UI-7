@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:id="@+id/row" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+    <ImageView android:layout_marginLeft="10dp" android:maxHeight="50dip" android:id="@+id/appIcon" android:adjustViewBounds="true" android:layout_width="wrap_content" android:src="@drawable/icon" android:layout_height="wrap_content" android:maxWidth="50dip"></ImageView>
+    <TextView android:layout_width="wrap_content" android:gravity="center_vertical" android:text="Application's name" android:lines="1" android:paddingLeft="15dp" android:id="@+id/appName" android:layout_height="wrap_content" android:ellipsize="end" android:textSize="22dp" android:paddingRight="15dp" android:layout_weight="1"></TextView>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/appCheck" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:button="@drawable/btn_check"></CheckBox>
+    
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="settings">Instellingen</string>
+    <string name="manage_apps">Beheer apps</string>
+    <string name="multi">Multi-select</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Kleur</item>
+        <item name="1">Afbeelding</item>
+        <item name="2">Achtergrond</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Lijst</item>
+        <item name="1">Rooster</item>
+        <item name="2">Horizontale pagina\'s</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Achtergrond...</string>
+        <string name="pref_bg_color">Achtergrondkleur</string>
+        <string name="pref_bg_image">Achtergrondafbeelding</string>
+        <string name="pref_bg_alpha">Achtergrond transparantie</string>
+        <string name="pref_low_quality">Lage resolutie achtergrond</string>
+        <string name="pref_low_quality_summary">Verbetert het scrollen</string>
+        <string name="pref_font">Lettertype</string>
+        <string name="pref_font_color">Tekstkleur</string>
+        <string name="pref_font_size">Tekstgrootte</string>
+        <string name="pref_font_size_title">Kies de gewenste tekstgrootte</string>
+        <string name="pref_icon_size">Icoon grootte</string>
+        <string name="pref_icon_size_title">Kies de gewenste icoon grootte</string>
+        <string name="button_OK">OK</string>
+        <string name="button_cancel">Annuleren</string>
+        <string name="button_restore">Herstellen</string>
+        <string name="pref_show_home">Toon home knop</string>
+        <string name="pref_fullscreen">Volledig scherm</string>
+        <string name="pref_restore_default">Herstel de fabrieksinstellingen</string>
+        <string name="restore_default_confirmation">Weet je zekerdat je alle instellingen naar de standaard waarde wilt herstellen? Dit herstelt ook verborgen en bewerkte applicaties. </string>
+        <string name="restore_default_title">Waarschuwing</string>
+        <string name="pref_list_style">Stijl</string>
+        <string name="pref_row_spacing">Rij-afstand</string>
+        <string name="pref_row_spacing_title">Kies de gewenste rij-afstand</string>
+        <string name="pref_num_columns">Aantal kolommen</string>
+        <string name="pref_num_columns_title">Kies het gewenste aantal kolommen</string>
+        <string name="pref_num_rows">Aantal rijen</string>
+        <string name="pref_num_rows_title">Kies het gewenste aantal rijen</string>
+        <string name="coming_soon">Binnenkort beschikbaar...</string>
+        <string name="portrait">Portret</string>
+        <string name="landscape">Landschap</string>
+        <string-array name="app_actions">
+            <item>Verberg</item>
+            <item>Details</item>
+            <item>Deïnstalleren</item>
+            <item>Maak snelkoppeling</item>
+            <item>Bewerken</item>
+            <item>Add to folder</item>
+            <item>New folder</item>
+        </string-array>
+        
+        <string name="pref_home_position">Positie home-knop</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Midden</item>
+        <item name="1">Links</item>
+        <item name="2">Rechts</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_screen_orientation">Schermoriëntatie</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Sensor</item>
+        <item name="1">Portret</item>
+        <item name="2">Landschap</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_hidden_apps">Verborgen apps</string>
+    	<string name="unhide_confirmation">Geselecteerde apps zichtbaar maken?</string>
+    	<string name="unhide">Zichtbaar maken</string>
+    	<string name="select_all">Alles selecteren</string>
+        <string name="no_hidden_apps">Er zijn geen verborgen applicaties</string>
+    	
+    	<string name="pref_remember_position">Onthoud lijstpositie</string>
+    	
+    	<string name="pref_show_indicators">Toon pagina indicatoren</string>
+    	<string name="pref_autohide_indicators">Verberg indicatoren automatisch</string>
+    	
+    	<string name="no_fonts">Plaats je lettertypen in /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Sorteren</string>
+    	<string name="sortByName">Naam (A-Z)</string>
+    	<string name="sortByDate">Installatiedatum</string>
+    	<string name="sortByDate2">Installatiedatum recentste eerst</string>
+    	<string name="sortByUses">Meest gebruikt</string>
+    	
+    	<string name="check_version">Tap om op updates te controleren</string>
+    	<string name="no_new_version">Er is geen nieuwe versie beschikbaar</string>
+    	<string name="new_version">Er is een nieuwe versie beschikbaar! Download</string>
+    	
+    	<string name="pref_export">Exporteer voorkeuren</string>
+    	<string name="pref_import">Herstel voorkeuren</string>
+    	<string name="pref_export_summary">Inclusief verborgen en bewerkte apps. Backup in /sdcard/AppDrawer/</string>
+    	<string name="pref_import_summary">Van backup</string>
+    	<string name="exported">Voorkeuren en DB zijn succesvol geëxporteerd</string>
+    	<string name="imported">Voorkeuren zijn succesvol hersteld</string>
+    	<string name="imported_DB">De database is succesvol hersteld</string>
+    	<string name="export_confirmation">Weet je zeker dat je je voorkeuren wilt exporteren? Oudere backups worden verwijderd.</string>
+    	<string name="import_confirmation">Weet je zeker dat je voorkeuren uit een backup wilt importeren? De huidige instellingen worden verwijderd.</string>
+    	<string name="prefs_not_found">Backup van voorkeuren is niet gevonden</string>
+    	<string name="db_not_found">Backup van de database is niet gevonden</string>
+        
+        <string name="folder_name">Folder\'s name</string>
+    	
+</resources>

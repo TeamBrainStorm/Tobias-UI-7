@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alt Drawer</string>
+    <string name="refresh">Rafraîchir</string>
+    <string name="settings">Paramètres</string>
+    <string name="manage_apps">Gérer applications </string>
+    <string name="multi">Multi-sélection</string>
+    
+    <string-array name="pref_bg_type_entries">
+        <item name="0">Couleur unie</item>
+        <item name="1">Image</item>
+        <item name="2">Fond d\'écran</item>
+    </string-array>
+    <string-array name="pref_bg_type_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="pref_list_style_entries">
+        <item name="0">Liste</item>
+        <item name="1">Grille</item>
+        <item name="2">Pages horizontales</item>
+    </string-array>
+    <string-array name="pref_list_style_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+        <string name="pref_bg_type">Fond d\'écran...</string>
+        <string name="pref_bg_color">Couleur de fond</string>
+        <string name="pref_bg_image">Image de fond</string>
+        <string name="pref_bg_alpha">Transparence du fond</string>
+        <string name="pref_low_quality">Fond d\'écran basse qualité</string>
+        <string name="pref_low_quality_summary">Meilleure fluidité</string>
+        <string name="pref_font">Type de police</string>
+        <string name="pref_font_color">Couleur de police</string>
+        <string name="pref_font_size">Taille de la police</string>
+        <string name="pref_font_size_title">Choisissez la taille de la police</string>
+        <string name="pref_icon_size">Taille des icônes</string>
+        <string name="pref_icon_size_title">Choisissez la taille des icônes</string>
+        <string name="button_OK">OK</string>
+        <string name="button_cancel">Annuler</string>
+        <string name="button_restore">Restaurer</string>
+        <string name="pref_show_home">Afficher le bouton "Retour à l\'acceuil"</string>
+        <string name="pref_fullscreen">Plein écran (cache la Barre d\'état)</string>
+        <string name="pref_restore_default">Remise à zéro des paramètres</string>
+        <string name="restore_default_confirmation">Etes-vous sûr de vous restaure les paramètres par défaut? (les applications cachées et éditées sont concernées)</string>
+        <string name="restore_default_title">Attention</string>
+        <string name="pref_list_style">Style</string>
+        <string name="pref_row_spacing">Espacement des lignes</string>
+        <string name="pref_row_spacing_title">Choisissez l\'espacement des lignes</string>
+        <string name="pref_num_columns">Nombres de colonnes </string>
+        <string name="pref_num_columns_title">Choisissez le nombre de colonnes</string>
+        <string name="pref_num_rows">Nombres de lignes</string>
+        <string name="pref_num_rows_title">Choisissez le nombre de lignes</string>
+        <string name="coming_soon">Bientôt disponible</string>
+        <string name="portrait">Portrait</string>
+        <string name="landscape">Paysage</string>
+        <string-array name="app_actions">
+            <item>Cacher</item>
+            <item>Détails</item>
+            <item>Désinstaller</item>
+            <item>Créer raccourci</item>
+            <item>Editer</item>
+            <item>Add to folder</item>
+            <item>New folder</item>
+        </string-array>
+        
+        <string name="pref_home_position">Position du bouton d`\'Acceuil</string>
+        <string-array name="pref_home_position_entries">
+        <item name="0">Centre</item>
+        <item name="1">Gauche</item>
+        <item name="2">Droite</item>
+    	</string-array>
+    	<string-array name="pref_home_position_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_screen_orientation">Orientation de l\'écran</string>
+    	<string-array name="pref_screen_orientation_entries">
+        <item name="0">Automatique</item>
+        <item name="1">Portrait</item>
+        <item name="2">Paysage</item>
+    	</string-array>
+    	<string-array name="pref_screen_orientation_values">
+       		<item name="0">0</item>
+        	<item name="1">1</item>
+        	<item name="2">2</item>
+    	</string-array>
+    	
+    	<string name="pref_hidden_apps">Applications cachées</string>
+    	<string name="unhide_confirmation">Afficher les applications cachées?</string>
+    	<string name="unhide">Afficher</string>
+    	<string name="select_all">Tout sélectionner</string>
+        <string name="no_hidden_apps">Il n\'y a pas d\'applications cachées</string>
+    	
+    	<string name="pref_remember_position">Retenir la position de la liste</string>
+    	
+    	<string name="pref_show_indicators">Montrer les indicateurs de page</string>
+    	<string name="pref_autohide_indicators">Auto-disparition des indicateurs</string>
+    	
+    	<string name="no_fonts">Placez vos polices dans: /sdcard/AppDrawer/fonts</string>
+    	
+    	<string name="sort">Trier</string>
+    	<string name="sortByName">Nom (A-Z)</string>
+    	<string name="sortByDate">Ordre d\'installation</string>
+    	<string name="sortByDate2">Dernière installation en premier</string>
+    	<string name="sortByUses">Les plus utilisées</string>
+    	
+    	<string name="check_version">Vérifier les mises à jour de AppDrawer</string>
+    	<string name="no_new_version">Vous êtes à jour!</string>
+    	<string name="new_version">Une nouvelle version est disponible, la télécharger</string>
+    	
+    	<string name="pref_export">Exporter les préférences</string>
+    	<string name="pref_import">Restaurer les préférences</string>
+    	<string name="pref_export_summary">Inclure les applications cachées et éditées. Sauvegarde dans: /sdcard/AppDrawer/</string>
+    	<string name="pref_import_summary">De la sauvegarder</string>
+    	<string name="exported">Préférences et BD exportées avec succès</string>
+    	<string name="imported">Préférences restaurées avec succès</string>
+    	<string name="imported_DB">Base de données restaurées avec succès</string>
+    	
+    	<string name="export_confirmation">Êtes-vous sûr de vouloir exporter vos préférences? Les anciennes sauvergardes seront supprimées.</string>
+<string name="import_confirmation">Êtes-vous sûr de vouloir importer vos préférences? Les paramètres actuels seront supprimés.</string>
+<string name="prefs_not_found">Sauvegarde des préférences introuvable</string>
+<string name="db_not_found">Sauvegarde de la base de données introuvable</string>
+
+        <string name="folder_name">Folder\'s name</string>
+
+    	
+</resources>
